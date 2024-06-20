@@ -9,21 +9,69 @@
 /* Begin PBXBuildFile section */
 		2B79F0472C21CD2200F7F396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B79F0462C21CD2200F7F396 /* AppDelegate.swift */; };
 		2B79F0492C21CD2200F7F396 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B79F0482C21CD2200F7F396 /* SceneDelegate.swift */; };
-		2B79F04B2C21CD2200F7F396 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B79F04A2C21CD2200F7F396 /* ViewController.swift */; };
-		2B79F04E2C21CD2200F7F396 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2B79F04D2C21CD2200F7F396 /* Base */; };
+		2B79F04B2C21CD2200F7F396 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B79F04A2C21CD2200F7F396 /* MainViewController.swift */; };
 		2B79F0502C21CD2300F7F396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B79F04F2C21CD2300F7F396 /* Assets.xcassets */; };
 		2B79F0532C21CD2300F7F396 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2B79F0522C21CD2300F7F396 /* Base */; };
+		2B79F0602C21CEFD00F7F396 /* ApplicationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B79F05F2C21CEFD00F7F396 /* ApplicationRouter.swift */; };
+		2B79F0632C21D0B600F7F396 /* SizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B79F0622C21D0B600F7F396 /* SizeExtension.swift */; };
+		2B79F0652C21D0CE00F7F396 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B79F0642C21D0CE00F7F396 /* MainView.swift */; };
+		2B79F0692C21D82D00F7F396 /* RegisterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B79F0682C21D82D00F7F396 /* RegisterButton.swift */; };
+		2B79F06D2C21F5DF00F7F396 /* MainViewButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B79F06C2C21F5DF00F7F396 /* MainViewButtonDelegate.swift */; };
+		2B79F06F2C21F75F00F7F396 /* SreenSaverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B79F06E2C21F75F00F7F396 /* SreenSaverViewController.swift */; };
+		2B79F0712C21F77A00F7F396 /* ScreenSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B79F0702C21F77A00F7F396 /* ScreenSaverView.swift */; };
+		2B79F0732C21F80400F7F396 /* ScreenSaverViewButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B79F0722C21F80400F7F396 /* ScreenSaverViewButtonDelegate.swift */; };
+		2B79F0782C21F9EE00F7F396 /* RegisterPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B79F0772C21F9EE00F7F396 /* RegisterPhoneViewController.swift */; };
+		2B79F07A2C21FA1A00F7F396 /* RegisterPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B79F0792C21FA1A00F7F396 /* RegisterPhoneView.swift */; };
+		2B79F07C2C21FF2900F7F396 /* RegisterPhoneViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B79F07B2C21FF2900F7F396 /* RegisterPhoneViewDelegate.swift */; };
+		2B829E692C230D1700CC5253 /* CodeRegisterPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B829E682C230D1700CC5253 /* CodeRegisterPhoneViewController.swift */; };
+		2B829E6B2C230D6700CC5253 /* CodeRegisterPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B829E6A2C230D6700CC5253 /* CodeRegisterPhoneView.swift */; };
+		2B829E6D2C230E7900CC5253 /* CodeRegisterPhoneButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B829E6C2C230E7900CC5253 /* CodeRegisterPhoneButtonDelegate.swift */; };
+		2B829E792C23255300CC5253 /* SignInPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B829E782C23255300CC5253 /* SignInPhoneViewController.swift */; };
+		2B829E7B2C23255E00CC5253 /* SignInPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B829E7A2C23255E00CC5253 /* SignInPhoneView.swift */; };
+		2B829E7D2C23256A00CC5253 /* SignInPhoneViewButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B829E7C2C23256A00CC5253 /* SignInPhoneViewButtonDelegate.swift */; };
+		2B829E822C23270400CC5253 /* CodeSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B829E812C23270400CC5253 /* CodeSignInViewController.swift */; };
+		2B829E842C23278600CC5253 /* CodeSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B829E832C23278600CC5253 /* CodeSignInView.swift */; };
+		2B829E862C23279300CC5253 /* CodeSignInViewButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B829E852C23279300CC5253 /* CodeSignInViewButtonDelegate.swift */; };
+		2B829E892C24197800CC5253 /* CodePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B829E882C24197800CC5253 /* CodePasswordViewController.swift */; };
+		2B829E8B2C24199B00CC5253 /* CodePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B829E8A2C24199B00CC5253 /* CodePasswordView.swift */; };
+		2B829E8D2C241A1F00CC5253 /* CodePasswordViewButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B829E8C2C241A1F00CC5253 /* CodePasswordViewButtonDelegate.swift */; };
+		2B829E902C24261C00CC5253 /* CodeSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B829E8F2C24261C00CC5253 /* CodeSuccessViewController.swift */; };
+		2B829E922C24263900CC5253 /* CodeSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B829E912C24263900CC5253 /* CodeSuccessView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B79F0432C21CD2200F7F396 /* SisApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SisApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B79F0462C21CD2200F7F396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B79F0482C21CD2200F7F396 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2B79F04A2C21CD2200F7F396 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2B79F04D2C21CD2200F7F396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B79F04A2C21CD2200F7F396 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2B79F04F2C21CD2300F7F396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B79F0522C21CD2300F7F396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B79F0542C21CD2300F7F396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B79F05F2C21CEFD00F7F396 /* ApplicationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationRouter.swift; sourceTree = "<group>"; };
+		2B79F0622C21D0B600F7F396 /* SizeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeExtension.swift; sourceTree = "<group>"; };
+		2B79F0642C21D0CE00F7F396 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2B79F0682C21D82D00F7F396 /* RegisterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterButton.swift; sourceTree = "<group>"; };
+		2B79F06C2C21F5DF00F7F396 /* MainViewButtonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewButtonDelegate.swift; sourceTree = "<group>"; };
+		2B79F06E2C21F75F00F7F396 /* SreenSaverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SreenSaverViewController.swift; sourceTree = "<group>"; };
+		2B79F0702C21F77A00F7F396 /* ScreenSaverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSaverView.swift; sourceTree = "<group>"; };
+		2B79F0722C21F80400F7F396 /* ScreenSaverViewButtonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSaverViewButtonDelegate.swift; sourceTree = "<group>"; };
+		2B79F0772C21F9EE00F7F396 /* RegisterPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPhoneViewController.swift; sourceTree = "<group>"; };
+		2B79F0792C21FA1A00F7F396 /* RegisterPhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPhoneView.swift; sourceTree = "<group>"; };
+		2B79F07B2C21FF2900F7F396 /* RegisterPhoneViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPhoneViewDelegate.swift; sourceTree = "<group>"; };
+		2B829E682C230D1700CC5253 /* CodeRegisterPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeRegisterPhoneViewController.swift; sourceTree = "<group>"; };
+		2B829E6A2C230D6700CC5253 /* CodeRegisterPhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeRegisterPhoneView.swift; sourceTree = "<group>"; };
+		2B829E6C2C230E7900CC5253 /* CodeRegisterPhoneButtonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeRegisterPhoneButtonDelegate.swift; sourceTree = "<group>"; };
+		2B829E782C23255300CC5253 /* SignInPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPhoneViewController.swift; sourceTree = "<group>"; };
+		2B829E7A2C23255E00CC5253 /* SignInPhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPhoneView.swift; sourceTree = "<group>"; };
+		2B829E7C2C23256A00CC5253 /* SignInPhoneViewButtonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPhoneViewButtonDelegate.swift; sourceTree = "<group>"; };
+		2B829E812C23270400CC5253 /* CodeSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSignInViewController.swift; sourceTree = "<group>"; };
+		2B829E832C23278600CC5253 /* CodeSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSignInView.swift; sourceTree = "<group>"; };
+		2B829E852C23279300CC5253 /* CodeSignInViewButtonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSignInViewButtonDelegate.swift; sourceTree = "<group>"; };
+		2B829E882C24197800CC5253 /* CodePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePasswordViewController.swift; sourceTree = "<group>"; };
+		2B829E8A2C24199B00CC5253 /* CodePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePasswordView.swift; sourceTree = "<group>"; };
+		2B829E8C2C241A1F00CC5253 /* CodePasswordViewButtonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePasswordViewButtonDelegate.swift; sourceTree = "<group>"; };
+		2B829E8F2C24261C00CC5253 /* CodeSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSuccessViewController.swift; sourceTree = "<group>"; };
+		2B829E912C24263900CC5253 /* CodeSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSuccessView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +104,176 @@
 		2B79F0452C21CD2200F7F396 /* SisApp */ = {
 			isa = PBXGroup;
 			children = (
-				2B79F0462C21CD2200F7F396 /* AppDelegate.swift */,
-				2B79F0482C21CD2200F7F396 /* SceneDelegate.swift */,
-				2B79F04A2C21CD2200F7F396 /* ViewController.swift */,
-				2B79F04C2C21CD2200F7F396 /* Main.storyboard */,
-				2B79F04F2C21CD2300F7F396 /* Assets.xcassets */,
-				2B79F0512C21CD2300F7F396 /* LaunchScreen.storyboard */,
-				2B79F0542C21CD2300F7F396 /* Info.plist */,
+				2B79F05A2C21CD2B00F7F396 /* App */,
+				2B79F0612C21D04E00F7F396 /* Extensions */,
+				2B79F0672C21D80200F7F396 /* Components */,
+				2B79F05E2C21CEEA00F7F396 /* ApplicationRouter */,
+				2B79F05B2C21CD8D00F7F396 /* Views */,
+				2B79F05C2C21CD9800F7F396 /* Resources */,
 			);
 			path = SisApp;
+			sourceTree = "<group>";
+		};
+		2B79F05A2C21CD2B00F7F396 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2B79F0462C21CD2200F7F396 /* AppDelegate.swift */,
+				2B79F0482C21CD2200F7F396 /* SceneDelegate.swift */,
+				2B79F0542C21CD2300F7F396 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2B79F05B2C21CD8D00F7F396 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B79F05D2C21CDF700F7F396 /* Main */,
+				2B79F06B2C21F5CD00F7F396 /* ScreenSaver */,
+				2B829E762C23252000CC5253 /* SignIn */,
+				2B79F0752C21F9AE00F7F396 /* Register */,
+				2B829E872C232AA000CC5253 /* CodePassword */,
+				2B829E8E2C24260000CC5253 /* CodeSuccess */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B79F05C2C21CD9800F7F396 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B79F0512C21CD2300F7F396 /* LaunchScreen.storyboard */,
+				2B79F04F2C21CD2300F7F396 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2B79F05D2C21CDF700F7F396 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2B79F04A2C21CD2200F7F396 /* MainViewController.swift */,
+				2B79F0642C21D0CE00F7F396 /* MainView.swift */,
+				2B79F06C2C21F5DF00F7F396 /* MainViewButtonDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2B79F05E2C21CEEA00F7F396 /* ApplicationRouter */ = {
+			isa = PBXGroup;
+			children = (
+				2B79F05F2C21CEFD00F7F396 /* ApplicationRouter.swift */,
+			);
+			name = ApplicationRouter;
+			sourceTree = "<group>";
+		};
+		2B79F0612C21D04E00F7F396 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2B79F0622C21D0B600F7F396 /* SizeExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		2B79F0662C21D7E900F7F396 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				2B79F0682C21D82D00F7F396 /* RegisterButton.swift */,
+			);
+			name = Buttons;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2B79F0672C21D80200F7F396 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2B79F0662C21D7E900F7F396 /* Buttons */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2B79F06B2C21F5CD00F7F396 /* ScreenSaver */ = {
+			isa = PBXGroup;
+			children = (
+				2B79F06E2C21F75F00F7F396 /* SreenSaverViewController.swift */,
+				2B79F0702C21F77A00F7F396 /* ScreenSaverView.swift */,
+				2B79F0722C21F80400F7F396 /* ScreenSaverViewButtonDelegate.swift */,
+			);
+			name = ScreenSaver;
+			sourceTree = "<group>";
+		};
+		2B79F0742C21F9A600F7F396 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				2B79F0772C21F9EE00F7F396 /* RegisterPhoneViewController.swift */,
+				2B79F0792C21FA1A00F7F396 /* RegisterPhoneView.swift */,
+				2B79F07B2C21FF2900F7F396 /* RegisterPhoneViewDelegate.swift */,
+			);
+			name = Phone;
+			sourceTree = "<group>";
+		};
+		2B79F0752C21F9AE00F7F396 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				2B79F0742C21F9A600F7F396 /* Phone */,
+				2B829E672C230CF900CC5253 /* CodePhone */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		2B829E672C230CF900CC5253 /* CodePhone */ = {
+			isa = PBXGroup;
+			children = (
+				2B829E682C230D1700CC5253 /* CodeRegisterPhoneViewController.swift */,
+				2B829E6A2C230D6700CC5253 /* CodeRegisterPhoneView.swift */,
+				2B829E6C2C230E7900CC5253 /* CodeRegisterPhoneButtonDelegate.swift */,
+			);
+			path = CodePhone;
+			sourceTree = "<group>";
+		};
+		2B829E762C23252000CC5253 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				2B829E772C23254100CC5253 /* Phone */,
+				2B829E7E2C2326CE00CC5253 /* CodePhone */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		2B829E772C23254100CC5253 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				2B829E782C23255300CC5253 /* SignInPhoneViewController.swift */,
+				2B829E7A2C23255E00CC5253 /* SignInPhoneView.swift */,
+				2B829E7C2C23256A00CC5253 /* SignInPhoneViewButtonDelegate.swift */,
+			);
+			name = Phone;
+			sourceTree = "<group>";
+		};
+		2B829E7E2C2326CE00CC5253 /* CodePhone */ = {
+			isa = PBXGroup;
+			children = (
+				2B829E812C23270400CC5253 /* CodeSignInViewController.swift */,
+				2B829E832C23278600CC5253 /* CodeSignInView.swift */,
+				2B829E852C23279300CC5253 /* CodeSignInViewButtonDelegate.swift */,
+			);
+			path = CodePhone;
+			sourceTree = "<group>";
+		};
+		2B829E872C232AA000CC5253 /* CodePassword */ = {
+			isa = PBXGroup;
+			children = (
+				2B829E882C24197800CC5253 /* CodePasswordViewController.swift */,
+				2B829E8A2C24199B00CC5253 /* CodePasswordView.swift */,
+				2B829E8C2C241A1F00CC5253 /* CodePasswordViewButtonDelegate.swift */,
+			);
+			name = CodePassword;
+			sourceTree = "<group>";
+		};
+		2B829E8E2C24260000CC5253 /* CodeSuccess */ = {
+			isa = PBXGroup;
+			children = (
+				2B829E8F2C24261C00CC5253 /* CodeSuccessViewController.swift */,
+				2B829E912C24263900CC5253 /* CodeSuccessView.swift */,
+			);
+			path = CodeSuccess;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +336,6 @@
 			files = (
 				2B79F0502C21CD2300F7F396 /* Assets.xcassets in Resources */,
 				2B79F0532C21CD2300F7F396 /* Base in Resources */,
-				2B79F04E2C21CD2200F7F396 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +346,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B79F04B2C21CD2200F7F396 /* ViewController.swift in Sources */,
+				2B79F0632C21D0B600F7F396 /* SizeExtension.swift in Sources */,
+				2B829E822C23270400CC5253 /* CodeSignInViewController.swift in Sources */,
+				2B79F07C2C21FF2900F7F396 /* RegisterPhoneViewDelegate.swift in Sources */,
+				2B829E7D2C23256A00CC5253 /* SignInPhoneViewButtonDelegate.swift in Sources */,
+				2B79F0652C21D0CE00F7F396 /* MainView.swift in Sources */,
+				2B79F04B2C21CD2200F7F396 /* MainViewController.swift in Sources */,
+				2B79F0692C21D82D00F7F396 /* RegisterButton.swift in Sources */,
+				2B829E7B2C23255E00CC5253 /* SignInPhoneView.swift in Sources */,
+				2B829E862C23279300CC5253 /* CodeSignInViewButtonDelegate.swift in Sources */,
+				2B829E8D2C241A1F00CC5253 /* CodePasswordViewButtonDelegate.swift in Sources */,
+				2B829E792C23255300CC5253 /* SignInPhoneViewController.swift in Sources */,
+				2B829E922C24263900CC5253 /* CodeSuccessView.swift in Sources */,
+				2B829E692C230D1700CC5253 /* CodeRegisterPhoneViewController.swift in Sources */,
+				2B79F0712C21F77A00F7F396 /* ScreenSaverView.swift in Sources */,
+				2B79F06D2C21F5DF00F7F396 /* MainViewButtonDelegate.swift in Sources */,
+				2B829E6D2C230E7900CC5253 /* CodeRegisterPhoneButtonDelegate.swift in Sources */,
+				2B79F06F2C21F75F00F7F396 /* SreenSaverViewController.swift in Sources */,
 				2B79F0472C21CD2200F7F396 /* AppDelegate.swift in Sources */,
+				2B829E892C24197800CC5253 /* CodePasswordViewController.swift in Sources */,
 				2B79F0492C21CD2200F7F396 /* SceneDelegate.swift in Sources */,
+				2B829E902C24261C00CC5253 /* CodeSuccessViewController.swift in Sources */,
+				2B79F07A2C21FA1A00F7F396 /* RegisterPhoneView.swift in Sources */,
+				2B79F0732C21F80400F7F396 /* ScreenSaverViewButtonDelegate.swift in Sources */,
+				2B79F0782C21F9EE00F7F396 /* RegisterPhoneViewController.swift in Sources */,
+				2B829E842C23278600CC5253 /* CodeSignInView.swift in Sources */,
+				2B829E6B2C230D6700CC5253 /* CodeRegisterPhoneView.swift in Sources */,
+				2B829E8B2C24199B00CC5253 /* CodePasswordView.swift in Sources */,
+				2B79F0602C21CEFD00F7F396 /* ApplicationRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2B79F04C2C21CD2200F7F396 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B79F04D2C21CD2200F7F396 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2B79F0512C21CD2300F7F396 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,12 +519,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = URP9845Z2R;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SisApp/Info.plist;
+				INFOPLIST_FILE = SisApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +531,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.matveiSw.SisApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,12 +550,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = URP9845Z2R;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SisApp/Info.plist;
+				INFOPLIST_FILE = SisApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +562,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.matveiSw.SisApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
